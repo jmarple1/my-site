@@ -1,4 +1,4 @@
-import { FaLinkedin } from 'react-icons/fa'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
 
 export default function Contact() {
@@ -26,6 +26,15 @@ export default function Contact() {
           aria-label="Email Me"
         >
           <SiGmail />
+        </a>
+        <a
+          href="https://github.com/jmarple1"
+          target="_blank"
+          rel="noreferrer"
+          className="contact-icon-btn"
+          aria-label="GitHub"
+        >
+          <FaGithub />
         </a>
       </div>
     </section>
