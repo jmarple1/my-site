@@ -1,3 +1,6 @@
+import { FaLinkedin } from 'react-icons/fa'
+import { SiGmail } from 'react-icons/si'
+
 export default function Contact() {
   return (
     <section className="section section-alt" id="contact">
@@ -10,15 +13,19 @@ export default function Contact() {
           href="https://linkedin.com/in/john-marple/"
           target="_blank"
           rel="noreferrer"
-          className="btn btn-primary"
+          className="contact-icon-btn"
+          aria-label="LinkedIn"
         >
-          LinkedIn
+          <FaLinkedin />
         </a>
         <a
-          href="mailto:marpleja@miamioh.edu"
-          className="btn btn-outline"
+          href="https://mail.google.com/mail/?view=cm&to=marpleja@miamioh.edu"
+          target="_blank"
+          rel="noreferrer"
+          className="contact-icon-btn"
+          aria-label="Email Me"
         >
-          Email Me
+          <SiGmail />
         </a>
       </div>
     </section>
